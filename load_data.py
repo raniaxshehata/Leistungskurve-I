@@ -21,7 +21,6 @@ def load_data(file_path):
     return column_arrays
 
 
-
 if __name__ == "__main__":
     data = load_data('activity.csv')
     power_W = data['PowerOriginal']
