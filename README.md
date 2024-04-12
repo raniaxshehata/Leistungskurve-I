@@ -1,4 +1,4 @@
-# Leistungskurve-I
+# Leistungskurve-I :chart_with_upwards_trend:
 **Repository for first Assignment** 
 > [!NOTE]
 >_Um diese Schritte in VS Code durchzuführen, müssen Sie zunächst sicherstellen, dass Sie Python und VS Code installiert haben._
