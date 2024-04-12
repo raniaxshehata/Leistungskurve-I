@@ -12,8 +12,8 @@ def main():
     sorted_power_W = bubble_sort(power_W)
 
     # Erzeugen der Power-Curve Grafik
-    plt.plot(sorted_power_W)
-    plt.xlabel('Index')
+    plt.plot(sorted_power_W[::-1])
+    plt.xlabel('Einzelbeobachtung (s)')
     plt.ylabel('Power (W)')
     plt.title('Power Curve')
     
