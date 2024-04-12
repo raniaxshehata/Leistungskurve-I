@@ -17,7 +17,9 @@ def main():
     plt.ylabel('Power (W)')
     plt.title('Power Curve')
     
-    # Überprüfen, ob der figures-Ordner existiert, andernfalls erstellen
+
+    # Figures
+    # Überprüfen, ob der figures-Ordner existiert, wenn nicht -> erstellen
     if not os.path.exists('figures'):
         os.makedirs('figures')
 
