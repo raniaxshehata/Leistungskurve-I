@@ -20,6 +20,7 @@ def main():
 
     # Figures
     # Überprüfen, ob der figures-Ordner existiert, wenn nicht -> erstellen
+    # Quelle: https://www.geeksforgeeks.org/python-os-makedirs-method/
     if not os.path.exists('figures'):
         os.makedirs('figures')
 
